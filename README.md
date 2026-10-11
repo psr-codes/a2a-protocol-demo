@@ -1,8 +1,10 @@
 # A2A Calculator Demo
 
+AIzaSyD5 qSOk7F7Li2 \_3AsytSEFPd xsxxa1KZ9g
 source .venv/bin/activate
 
-chmod +x start_all.sh ./start_all.sh
+chmod +x start_all.sh
+./start_all.sh
 
 python client.py
 
@@ -57,4 +59,3 @@ curl localhost:8003/.well-known/agent-card.json   # Agent Card
 curl localhost:8000/agents                         # registry catalog
 curl "localhost:8000/search?q=divide"              # discovery
 ```
-# a2a-protocol-demo
